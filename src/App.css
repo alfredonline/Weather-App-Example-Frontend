@@ -1,0 +1,114 @@
+.dailyCard {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.4px);
+    -webkit-backdrop-filter: blur(2.4px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 200px;
+    width: 100px;
+    text-align: center;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    height: 90vh;
+}
+
+.weatherTitle {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.dailyCard__header {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    border-bottom: 1px solid white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dailyCard__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0
+}
+
+.dailyCard__body__icon {
+    height: 50px;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.4px);
+    -webkit-backdrop-filter: blur(2.4px);
+    margin-top: 20px;
+}
+
+.dailyCard__body__temp {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid white;
+}
+
+.weatherDescription {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.search {
+    padding: 10px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 30px;
+    margin-right: 20px;
+    border: none;
+}
+
+.searchBtn {
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 16px;
+    padding: 10px;
+    margin-left: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.4px);
+    -webkit-backdrop-filter: blur(2.4px);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #fff
+}
